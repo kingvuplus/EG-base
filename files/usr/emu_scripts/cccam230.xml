@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<emu>
+<start>
+<startemu daemon="/var/bin/CCcam_2_3_0" />
+</start>
+<stop>
+<killemu command="killall -9 CCcam_2_3_0" />
+</stop>
+</emu>
